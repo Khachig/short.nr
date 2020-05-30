@@ -9,9 +9,9 @@
         <title>Short.nr</title>
     </head>
     <body style="background: linear-gradient(to right, rgba(104,178,227,1) 0%, rgba(89,154,194,1) 58%, rgba(54,112,150,1) 100%);">
-        <div class='container h-100'>
-            <div class='row row-cols-1 justify-content-center align-items-center vh-100'>
-                <div class="col col-10 col-md-8 col-lg-6 rounded mx-auto" style="background: linear-gradient(to right, rgba(240,143,141,1) 0%, rgba(224,125,123,1) 58%, rgba(212,114,112,1) 100%); box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3)">
+        <div class='container' style="min-height: 100%; min-height: 100vh; display: flex; align-items: center;">
+            <div class='row row-cols-1 justify-content-center' style="width: 100%;">
+                <div class="col col-10 rounded" style="margin-bottom: 20px; background: linear-gradient(to right, rgba(240,143,141,1) 0%, rgba(224,125,123,1) 58%, rgba(212,114,112,1) 100%); box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3)">
                     <form action="{{ url_for('handle_url') }}" method="post" class="text-center">
                         <div class="form-group">
                             <h1>Short.nr</h1>

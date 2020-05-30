@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block body %}
+{% if shortened: %}
+<div class="col col-10 col-md-8 col-lg-6 rounded" style="background: linear-gradient(to right, rgba(240,143,141,1) 0%, rgba(224,125,123,1) 58%, rgba(212,114,112,1) 100%); box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3)">
+    <h1>Shortened URL</h1>
+    <p>{{shortened}}</p>
+</div>
+{% endif %}
+{% endblock %}
