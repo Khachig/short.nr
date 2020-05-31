@@ -1,1 +1,8 @@
-<h1>404: Page Not Found :(</h1>
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="col col-10">
+    <h1 class="display-2">404: Page Not Found :(</h1>
+    <a class="link" href="{{ url_for('home') }}"><h3 class="link-text">Go to homepage</h3></a>
+</div>
+{% endblock %}
